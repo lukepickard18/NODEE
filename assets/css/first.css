@@ -1,0 +1,87 @@
+
+    
+body{
+    background-image:url("../img/back.jpg");
+    background-color:whitesmoke;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0;
+}
+
+#container{
+    margin-top: auto;;
+    width:100vw;
+    transition:all .5s;
+}
+
+#container > div{    
+    color:white;
+    text-align: center;
+    font-family: 'Kanit', sans-serif;
+    font-size: 10vw;
+    text-shadow: 1px 1px 2px red, 0 0 1em red, 0 0 0.2em red   ;
+    display: flex;
+    align-content: flex-end;
+    align-items: center;
+    padding-bottom: 10px;
+    transition:all .5s;
+ 
+}
+#pagetwo > div{
+    color:white;
+    text-align: center;
+    font-family: 'Kanit', sans-serif;
+    font-size: 10vw;
+    text-shadow: 1px 1px 2px red, 0 0 1em red, 0 0 0.2em red   ;
+    display: none;
+    align-content: flex-end;
+    align-items: center;
+    padding-bottom: 10px;
+    transition:all .5s;
+}
+.logo{
+    color:white;
+    text-align: center;
+    font-size: 150%;
+    padding-top: 20px;
+    text-align: left;
+    display: flex;
+    align-content: flex-end;
+    align-items: flex-end;   
+    
+}
+
+footer{
+    padding-top: 50px;
+    font-size:12%;
+    color:white;
+    text-align: center;
+    font-family: 'Kanit', sans-serif;
+    font-size: 1vw;
+    text-shadow: 1px 1px 2px red, 0 0 1em red, 0 0 0.2em red   ;
+    display: flex;
+    align-content: flex-end;
+    align-items: center;
+    padding-bottom: 10px;
+    transition:all .5s;
+}
+a{
+    pointer-events:none;
+}
+
+
+a:hover{
+    transition: color 2s;
+    font-weight: 900;
+    color:red;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon{
+    width: 75px;
+    display: flex;
+}
