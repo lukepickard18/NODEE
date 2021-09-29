@@ -32,17 +32,32 @@ body{
 }
 #pagetwo > div{
     color:white;
-    text-align: center;
-    font-family: 'Kanit', sans-serif;
-    font-size: 10vw;
-    text-shadow: 1px 1px 2px red, 0 0 1em red, 0 0 0.2em red   ;
     display: none;
-    align-content: flex-end;
-    align-items: center;
-    padding-bottom: 10px;
     transition:all .5s; 
+    grid-template-columns: min-content 1fr;
+    padding: 2rem;
+    grid-template-columns: 300px 1fr;
+    gap: 1rem;
+    align-items: top;
+    max-width: 800px;
+    margin: 0 auto;
+    font: 500 100%/1.5 system-ui;
+    font-family: 'Kanit', sans-serif;
+    font-size: 2vw;
+    text-shadow: 1px 1px 2px red, 0 0 1em red, 0 0 0.2em red   ;
     
 }
+#pagetwo > img {
+    max-width: 100%;
+    height: auto;
+}
+p:hover {
+    transition: color 2s;
+    font-weight: 900;
+    color:red;
+}
+
+
 
 .logo{
     color:white;
@@ -117,3 +132,17 @@ div.pagetwogallery {
     padding: 15px;
     text-align: center;
   }
+.pagetwogallery {
+    padding-top: 50px;
+    font-size:12%;
+    color:white;
+    text-align: center;
+    font-family: 'Kanit', sans-serif;
+    font-size: 1vw;
+    text-shadow: 1px 1px 2px red, 0 0 1em red, 0 0 0.2em red   ;
+    display: none;
+    align-content: flex-end;
+    align-items: center;
+    padding-bottom: 10px;
+    transition:all .5s;
+}

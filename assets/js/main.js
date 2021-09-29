@@ -9,6 +9,8 @@ document.addEventListener("click", (event) => {
             console.log("page 1");
             // put all your logic to show the right page
             document.querySelector("#pagetwo > div").style.display = "grid"; 
+            console.log("Gallery")
+            /*document.querySelector(".pagetwogallery").style.display = "flex"; */
             
         }
         else
